@@ -20,7 +20,7 @@ public class MapFrequencyCharacters {
         for(Character each : ch){
             if(map.containsKey(each)){
                 map.put(each, map.get(each)+1);
-                //............tam ustmdeki deger 1 oluyor, uzerine ir bir ilave ediliyor.
+                //............tam ustteki deger 1 oluyor, uzerine bir bir ilave ediliyor.
             }else {
                 map.put(each,1);
             }
