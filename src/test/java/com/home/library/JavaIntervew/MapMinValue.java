@@ -12,7 +12,7 @@ public class MapMinValue {
         map.put("Mcr",12);
         map.put("leeds", 23);
         map.put("Hull", 10);
-        System.out.println(map);
+        System.out.println(MinValue(map));
 
     }
 

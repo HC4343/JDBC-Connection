@@ -9,25 +9,38 @@ public class StringUniqueCharacters {
     }
 
     public static String Unique(String str){
-
-        String[] arr = str.split("");
-
-        String Unique="";
-        for(int i=0; i<arr.length; i++) {
-            int count=0;
-            for(int j=0; j<arr.length; j++) {
-                if(arr[i].equals(arr[j])) {
+        String unique = "";
+        for (int i = 0; i<str.length(); i++){
+            int count = 0;
+            for (int j=0; j<str.length(); j++){
+                if (str.charAt(i)==str.charAt(j)){
                     count ++;
                 }
             }
-            if(count==1) {
-                Unique +=arr[i];
+            if(count==1){
+                unique +=str.charAt(i);
             }
         }
-        return Unique;
+        return unique;
+    //solution 2;
+//        String[] arr = str.split("");
+//
+//        String Unique="";
+//        for(int i=0; i<arr.length; i++) {
+//            int count=0;
+//            for(int j=0; j<arr.length; j++) {
+//                if(arr[i].equals(arr[j])) {
+//                    count ++;
+//                }
+//            }
+//            if(count==1) {
+//                Unique +=arr[i];
+//            }
+//        }
+//        return Unique;
 
     }
-    //		Solution 2:
+    //		Solution 3:
 //
 //			public static String Unique(String str) {
 //

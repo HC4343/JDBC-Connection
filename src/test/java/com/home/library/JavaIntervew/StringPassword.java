@@ -13,7 +13,7 @@ if all requirements above are met, the method returns true, otherwise returns  f
 	 */
     public static void main(String[] args) {
 
-        String passw = "WEdd345m#";
+        String passw = "WEdd345m";
         System.out.println(Password(passw));
     }
 
@@ -27,11 +27,12 @@ if all requirements above are met, the method returns true, otherwise returns  f
 
         boolean valid = length && lower && upper && digit && spec;
 
-        if (valid){
-            return true;
-        }else {
-            return false;
-        }
+//        if (valid){
+//            return true;
+//        }else {
+//            return false;
+//        }
+        return valid?true:false;
 
 
     }

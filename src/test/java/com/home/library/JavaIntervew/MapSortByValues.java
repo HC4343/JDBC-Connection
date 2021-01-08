@@ -16,10 +16,19 @@ public class MapSortByValues {
 
     public static Map<String,Integer> SorrtingByValues(Map<String,Integer> map1){
 
+        /*
+        1.yol;
+         List<Integer> list = new ArrayList<>(map.values());
+        Collections.sort(list);
+
+        System.out.println(list);
+         */
+
+        //2.yol
         List<Map.Entry<String,Integer>> list = new ArrayList<>(map1.entrySet());
         list.sort(Map.Entry.comparingByValue());
 
-        map1 = new LinkedHashMap<>();
+         map1 = new LinkedHashMap<>();
 
         for(Map.Entry<String,Integer> each : list){
             map1.put(each.getKey(), each.getValue());

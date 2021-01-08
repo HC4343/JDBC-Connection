@@ -28,7 +28,6 @@ public class ArrayListSortingDescendingOrder {
 
 			for(int j=list.size()-1; j>i; j--) {
 				if(list.get(i) < list.get(j)) {
-
 					int temp = list.get(i);
 					list.set(i, list.get(j));
 					list.set(j, temp);

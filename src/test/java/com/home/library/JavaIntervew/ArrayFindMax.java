@@ -4,6 +4,7 @@ public class ArrayFindMax {
 
     public static void main(String[] args) {
         int[] arr1 = {2,4,9};
+
         System.out.println( maximum(arr1));
     }
 

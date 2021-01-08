@@ -4,14 +4,20 @@ public class StringReverse {
 
     public static void main(String[] args) {
 
-        String str = "EEEEEEbbF";
+        String str = "EoEEEEbbF";
         System.out.println(Reverse(str));
     }
 
     public static String Reverse(String str1){
 
+        //solution 1;
+//        StringBuilder str5 = new StringBuilder(str1);
+//        str5.reverse();
+//        return str5.toString();
+
+        //solution2;
         String result ="";
-        for (int i=str1.length()-1; i>0; i--){
+        for (int i=str1.length()-1; i>=0; i--){
             result +=str1.charAt(i);
         }
         return  result;

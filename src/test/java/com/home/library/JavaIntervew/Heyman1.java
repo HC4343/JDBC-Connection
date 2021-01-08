@@ -24,9 +24,9 @@ Otherwise, reverse this word and print out result into the console. Please, get 
         String reverse = "";
 
         if (lng == 5) {
-            char[] ch = word.toCharArray();
-            for (int i = ch.length - 1; i >= 0; i--) {
-                reverse += ch[i]; //*********************************************
+            //char[] ch = word.toCharArray();
+            for (int i = word.length() - 1; i >= 0; i--) {
+                reverse += word.charAt(i);//[i]werty; //*********************************************
             }
             System.out.println("Reverse word: " + reverse.trim());
         } else {

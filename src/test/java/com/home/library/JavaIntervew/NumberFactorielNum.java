@@ -13,13 +13,14 @@ public class NumberFactorielNum {
           5!=5*4*3*2*1=120
      */
     public static void main(String[] args) {
+        System.out.println(Factoriel(5));
 
     }
 
     public static int Factoriel(int num){
 
         int result = 1;
-        for(int i=1; i<num; i++){
+        for(int i=1; i<=num; i++){
             result= result*i;
         }
 
