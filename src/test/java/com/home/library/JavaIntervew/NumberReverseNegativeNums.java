@@ -8,7 +8,7 @@ public class NumberReverseNegativeNums {
     }
 
     public static int reverseNum(int num){
-
+        //int a=0;
         String str = new StringBuilder(""+num).reverse().toString();
         if(num<0){
             str ="-"+str.substring(0, str.length()-1);

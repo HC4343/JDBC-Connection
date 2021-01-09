@@ -22,7 +22,7 @@ ex:
         for (int i=0; i<99; i++){
             list.add(i);
         }
-
+        // List olusturmadan da yapilabilir..........................................
         for(Integer each: list) {
             if(each%15 ==0 && each%5==0 && each%3==0) {
                 s15 +=each+" ";

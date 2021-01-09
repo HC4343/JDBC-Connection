@@ -13,6 +13,7 @@ public class NumberFactorielNum {
           5!=5*4*3*2*1=120
      */
     public static void main(String[] args) {
+        System.out.println(Factoriel(5));
 
         System.out.println(Factoriel(5));
     }

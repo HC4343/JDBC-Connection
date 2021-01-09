@@ -6,7 +6,7 @@ public class StringSameLetter {
 
     public static void main(String[] args) {
         String str1 = "AAAAgggTT";
-        String str2 = "Ag";
+        String str2 = "AgT";
         SameLetter(str1,str2);
     }
 

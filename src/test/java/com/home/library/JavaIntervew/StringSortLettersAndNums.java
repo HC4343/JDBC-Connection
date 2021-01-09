@@ -9,19 +9,19 @@ public class StringSortLettersAndNums {
     //	OutPut: "CD015ACCCG011899"
 
     public static void main(String[] args) {
-        System.out.println(sortEach("DC501GCCCA098911"));
+
+        System.out.println(sortEach("501DCGCCCA098911"));
+
     }
 
     public static String sortEach(String str) {
+
         String sorted = "";
         String each = "";
 
         for(int i=0; i < str.length(); i++) {
-
             each += str.charAt(i);
-
             if(Character.isLetter(str.charAt(i))){
-
                 if(i == str.length()-1 || !Character.isLetter(str.charAt(i+1))){
                     sorted += sortSubstring(each);
                     each = "";
