@@ -6,7 +6,7 @@ import java.util.Set;
 import java.util.TreeSet;
 
 public class MapMinValue {
-    //Write a method that can return the minimum value from ta map (DO NOT use sort method)
+    //Write a method that can return the minimum value from the map (DO NOT use sort method)
     public static void main(String[] args) {
         Map<String, Integer>  map = new LinkedHashMap<>();
         map.put("Mcr",12);

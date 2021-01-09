@@ -21,7 +21,7 @@ public class NumberAmstrong {
 
         for( int i=0; i<number.length(); i++){
             int digit = Integer.parseInt(""+number.charAt(i));      //pow methodu icin digit lazim
-            sum +=Math.pow(digit,power);
+            sum +=Math.pow(digit, power);
         }
 
         return sum == x;

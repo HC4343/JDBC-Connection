@@ -30,8 +30,10 @@ public class StringRemoveDublicate {
             set.add(each);
         }
 
-        return set.toString().replace("[","").replace("]","").replace(", ","");
+        String ss = set.toString().replace("[","").replace("]","").replace(", ","");
+       // return set.toString().replace("[","").replace("]","").replace(", ","");
 
+        return ss;
     }
 
 }

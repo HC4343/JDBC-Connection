@@ -11,7 +11,7 @@ public class NumberSwap {
         y = x - y;
         x = x - y;
 
-        System.out.println("After swaping:  "+ "x= "+ x + ",  y= "+ y);
+        System.out.println("After swaping:  " + "x= "+ x + ",  y= "+ y);
     }
 
 

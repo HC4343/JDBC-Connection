@@ -26,7 +26,7 @@ Otherwise, reverse this word and print out result into the console. Please, get 
         if (lng == 5) {
             char[] ch = word.toCharArray();
             for (int i = ch.length - 1; i >= 0; i--) {
-                reverse += ch[i]; //*********************************************
+                reverse += ch[i];
             }
             System.out.println("Reverse word: " + reverse.trim());
         } else {

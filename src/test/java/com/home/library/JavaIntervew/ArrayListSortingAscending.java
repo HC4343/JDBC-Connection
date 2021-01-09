@@ -11,7 +11,7 @@ public class ArrayListSortingAscending {
             list1.add(each);
         }
         SortingAscending(list1);
-        System.out.println(list1);
+       // System.out.println(list1);
     }
 
     public static void SortingAscending(List<Integer> list){
@@ -26,6 +26,8 @@ public class ArrayListSortingAscending {
                 }
             }
         }
+        System.out.println(list);
+
 
 //        for (int each : list){
 //            System.out.println(each);

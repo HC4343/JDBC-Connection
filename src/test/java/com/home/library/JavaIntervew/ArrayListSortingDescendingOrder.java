@@ -25,9 +25,10 @@ public class ArrayListSortingDescendingOrder {
 	public static void SortingArrayListAsc(List<Integer> list) {
 
 		for ( int i=0; i<list.size(); i++) {
-
-			for(int j=list.size()-1; j>i; j--) {
-				if(list.get(i) < list.get(j)) {
+            for(int j=0; j< list.size(); j++){
+			//for(int j=list.size()-1; j>i; j--) {
+				//if(list.get(i) < list.get(j)) {
+				if(list.get(i) > list.get(j)) {
 
 					int temp = list.get(i);
 					list.set(i, list.get(j));

@@ -20,7 +20,7 @@ public class ArraySortAscending {
 	}
 
 	public static void SortingArrayAsc(int[] arr) {
-		ArrayList<Integer> list = new ArrayList();
+		ArrayList<Integer> list = new ArrayList<>();
 		for(int each: arr) {
 			list.add(each);
 		}

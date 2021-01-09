@@ -17,6 +17,7 @@ public class MapFrequencyCharacters {
 
         char[] ch = str1.toCharArray();
 
+
         for(Character each : ch){
             if(map.containsKey(each)){
                 map.put(each, map.get(each)+1);
