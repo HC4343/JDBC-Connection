@@ -15,7 +15,7 @@ public class NumberFactorielNum {
     public static void main(String[] args) {
         System.out.println(Factoriel(5));
 
-        System.out.println(Factoriel(5));
+//        System.out.println(Factoriel(5));
     }
 
     public static int Factoriel(int num){

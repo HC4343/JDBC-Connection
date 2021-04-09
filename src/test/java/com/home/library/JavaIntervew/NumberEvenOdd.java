@@ -2,6 +2,7 @@ package com.home.library.JavaIntervew;
 
 public class NumberEvenOdd {
     public static void main(String[] args) {
+
         System.out.println(EvenOdd(32));
     }
 
